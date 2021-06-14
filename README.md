@@ -1,2 +1,2 @@
 # UnitConverter
-simple Java program to take 4 inputs and convert the units or quit. 
+simple Java program to take 5 inputs and convert the units or quit. 

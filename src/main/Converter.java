@@ -10,7 +10,8 @@ public class Converter {
 		System.out.println("1. Cups to Teaspons");
 		System.out.println("2. Miles to Kilometers");
 		System.out.println("3. US Gallons to Imperial Gallons");
-		System.out.println("4. Quit");
+		System.out.println("4. Days to minutes");
+		System.out.println("5. Quit");
 		
 		int response = userInput.nextInt();
 		return response;
@@ -42,6 +43,12 @@ public class Converter {
 				continue;
 				
 			case 4:
+				System.out.print("Number of days ");
+				double days = userInput.nextInt();
+				double minutes = days * 1440;
+				System.out.println(minutes + " minutes are in " + days + " days \n");
+				continue;
+			case 5:
 				System.out.println("Goodbye!");
 				programRunning = false;
 	              						
